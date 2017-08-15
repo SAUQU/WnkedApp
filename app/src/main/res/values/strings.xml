@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="DialogAlert">Default</string>
+    <string name="DialogMessage">Hello There!</string>
+    <string-array name="carModels">
+        <item>Audi</item>
+        <item>Mercedes</item>
+        <item>BMW</item>
+        <item>Volvo</item>
+        <item>Tesla</item>
+        <item>Aston Martin</item>
+        <item>Porsche</item>
+        <item>Bentley</item>
+        <item>Rolls Royce</item>
+        <item>Lamborghini</item>
+
+
+    </string-array>
+</resources>

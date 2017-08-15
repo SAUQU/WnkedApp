@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.segundoauqui.wnkedapp.DialogAlertActivity"
+    android:weightSum="1">
+
+            <Button
+                android:textSize="20dp"
+                android:id="@+id/btnDA"
+                android:text="Default Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="80dp"
+                />
+            <Button
+                android:textSize="20dp"
+                android:id="@+id/btnCA"
+                android:text="Custom Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="80dp"
+                 />
+
+            <Button
+                android:textSize="20dp"
+                android:text="List Alert"
+                android:id="@+id/btnLA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="80dp"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tvList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.97" />
+
+
+
+</LinearLayout>
